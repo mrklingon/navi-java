@@ -1,0 +1,8 @@
+for i in uDict uDNVlang NVL 
+do
+echo $i 
+javac -target 1.7 $i.java
+cp $i.class udict/
+done
+rm NVL.jar  
+jar cvf NVL.jar  NVL.class  udict/uDNVlang.class udict/uDict.class
