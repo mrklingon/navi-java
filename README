@@ -1,2 +1,20 @@
-
 Simple dictionary tool based on previous work with Klingon and other Trek languages.
+
+
+NVL.html	:	simple web page to test jar file with appletviewer
+
+NVL.jar	:	jar collection of NVL/UDNVlang/uDict classes
+
+NVL.jar.1-5	:	compiled with 1.5 option
+
+NVL.jar.1-7	:	compiled with 1.7 option
+
+NVL.java	:	 NVL applet
+
+uDNVlang.java	:	Navi vocabulary
+
+uDict.java	: UTA dictionary data structure definition, search functions
+
+nvmake	:	make script
+
+README	This file
