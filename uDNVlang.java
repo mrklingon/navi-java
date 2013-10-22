@@ -1,11 +1,11 @@
-//UTA program dictionary class for Na'vi
-package udict;
-    
-    import java.io.*;
-	import udict.uDict;
-	    
-	    public class uDNVlang extends uDict{
-	    public   static String[] edict = {
+//UTA program dictionary class for Na'vi
+package udict;
+    
+    import java.io.*;
+	import udict.uDict;
+	    
+	    public class uDNVlang extends uDict{
+	    public   static String[] edict = {
 		"‘Rrta", "Earth [n.]",
 		"‘a’aw", "a few, several [adj.]",
 		"‘akra", "soil (fertile) [n.]",
@@ -1912,24 +1912,24 @@ package udict;
 		"Vitrautral", "Tree of Souls	n.",
 		"Yerik", "hexapede, hexapod n.",
 		"Yu.E.Sey", "USA n."
-	    };
-		
-	    // send out message that we loaded the language
-		public static void wrdcnt(){
-		    int wcount = language.length/2;
-			System.out.println ("Language contains " + wcount + " words.");
-			    }
-		    public	uDNVlang (){
-			// overwrite language array with new language
-			String [] tmpVar = new String[edict.length];
-			    System.arraycopy(edict,0,tmpVar,0,edict.length);
-				language = tmpVar;
-				    }
-			public String tranString(String inText) {
-			    // Not valid in UDPhrases
-			    // parse each word with English meaning
-			    return "\n\nUse this to look up phrases and words.\nParsing not available.";
-				
-				
-				}	
-	    }
+	    };
+		
+	    // send out message that we loaded the language
+		public static void wrdcnt(){
+		    int wcount = language.length/2;
+			System.out.println ("Language contains " + wcount + " words.");
+			    }
+		    public	uDNVlang (){
+			// overwrite language array with new language
+			String [] tmpVar = new String[edict.length];
+			    System.arraycopy(edict,0,tmpVar,0,edict.length);
+				language = tmpVar;
+				    }
+			public String tranString(String inText) {
+			    // Not valid in UDPhrases
+			    // parse each word with English meaning
+			    return "\n\nUse this to look up phrases and words.\nParsing not available.";
+				
+				
+				}	
+	    }
