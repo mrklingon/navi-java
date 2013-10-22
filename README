@@ -11,10 +11,14 @@ NVL.jar.1-7	:	compiled with 1.7 option
 
 NVL.java	:	 NVL applet
 
+NVL-new.jar	:  new vocabulary version
+
 uDNVlang.java	:	Navi vocabulary
 
 uDict.java	: UTA dictionary data structure definition, search functions
 
 nvmake	:	make script
+
+words 	:	new version of vocab
 
 README	This file
